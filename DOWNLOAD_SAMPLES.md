@@ -6,7 +6,7 @@ All sample testing data has been created and is available in your project. Here'
 
 ## 📁 **Available Sample Files**
 
-### **Location**: `/app/sample_data/`
+### **Location**: `/sample_data/`
 
 1. **📄 `architecture_document.txt`** (8KB)
    - Comprehensive e-commerce platform architecture
