@@ -1,4 +1,4 @@
-# Azure Well-Architected Review System - Enhanced Edition v2.1.0
+# Azure Well-Architected Review System - Enhanced Edition 
 
 A comprehensive multi-agent AI system for conducting Azure Well-Architected Framework reviews with **dual intelligence modes**: sophisticated emulated analysis and real OpenAI GPT-4 Turbo integration. This production-ready system provides professional-grade architecture analysis across all five pillars using specialized AI agents that collaborate to deliver actionable recommendations.
 
