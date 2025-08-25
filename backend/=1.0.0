@@ -1,0 +1,13 @@
+Looking in indexes: https://pypi.org/simple, https://d33sy5i8bnduwe.cloudfront.net/simple/
+Requirement already satisfied: openai in /root/.venv/lib/python3.11/site-packages (1.12.0)
+Requirement already satisfied: anyio<5,>=3.5.0 in /root/.venv/lib/python3.11/site-packages (from openai) (3.7.1)
+Requirement already satisfied: distro<2,>=1.7.0 in /root/.venv/lib/python3.11/site-packages (from openai) (1.9.0)
+Requirement already satisfied: httpx<1,>=0.23.0 in /root/.venv/lib/python3.11/site-packages (from openai) (0.25.2)
+Requirement already satisfied: pydantic<3,>=1.9.0 in /root/.venv/lib/python3.11/site-packages (from openai) (1.10.12)
+Requirement already satisfied: sniffio in /root/.venv/lib/python3.11/site-packages (from openai) (1.3.1)
+Requirement already satisfied: tqdm>4 in /root/.venv/lib/python3.11/site-packages (from openai) (4.67.1)
+Requirement already satisfied: typing-extensions<5,>=4.7 in /root/.venv/lib/python3.11/site-packages (from openai) (4.14.1)
+Requirement already satisfied: idna>=2.8 in /root/.venv/lib/python3.11/site-packages (from anyio<5,>=3.5.0->openai) (3.10)
+Requirement already satisfied: certifi in /root/.venv/lib/python3.11/site-packages (from httpx<1,>=0.23.0->openai) (2025.8.3)
+Requirement already satisfied: httpcore==1.* in /root/.venv/lib/python3.11/site-packages (from httpx<1,>=0.23.0->openai) (1.0.9)
+Requirement already satisfied: h11>=0.16 in /root/.venv/lib/python3.11/site-packages (from httpcore==1.*->httpx<1,>=0.23.0->openai) (0.16.0)

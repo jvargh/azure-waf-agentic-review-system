@@ -1,0 +1,152 @@
+{
+  "summary": {
+    "passed": 6,
+    "total": 6,
+    "success_rate": "100.0%",
+    "critical_status": "RESOLVED"
+  },
+  "results": [
+    {
+      "test": "Create Critical Assessment",
+      "success": true,
+      "message": "Assessment created with ID: bcbca449-e0a4-43e9-a4c6-6efbc7cfc769",
+      "details": {
+        "id": "bcbca449-e0a4-43e9-a4c6-6efbc7cfc769",
+        "name": "Critical Fix Verification",
+        "description": "Testing CSV file storage and processing fixes - 3rd attempt",
+        "documents": [],
+        "status": "pending",
+        "progress": 0,
+        "created_at": "2025-08-25T00:28:32.177522+00:00",
+        "completed_at": null,
+        "pillar_scores": [],
+        "recommendations": [],
+        "overall_score": null,
+        "overall_percentage": null,
+        "agent_metrics": null,
+        "collaboration_metrics": null,
+        "reactive_cases_csv": null,
+        "reactive_analysis_results": null
+      },
+      "timestamp": "2025-08-25T00:28:32.186436"
+    },
+    {
+      "test": "Upload TXT File",
+      "success": true,
+      "message": "TXT file uploaded successfully",
+      "details": {
+        "message": "Document uploaded successfully",
+        "document_id": "e5aba1a7-8bd4-4e57-8594-27f229469475"
+      },
+      "timestamp": "2025-08-25T00:28:32.199280"
+    },
+    {
+      "test": "Upload CSV File",
+      "success": true,
+      "message": "CSV file uploaded and reactive analysis triggered",
+      "details": {
+        "response": {
+          "message": "Document uploaded and reactive analysis completed",
+          "document_id": "9b97ab70-0f34-4ed9-8016-f40123afce7d",
+          "reactive_analysis": {
+            "cases_analyzed": 10,
+            "patterns_identified": 4,
+            "wa_violations": 5,
+            "risk_level": "Medium"
+          }
+        },
+        "success_criteria": {
+          "document_uploaded": true,
+          "reactive_analysis_triggered": true,
+          "message_indicates_csv_processing": true
+        }
+      },
+      "timestamp": "2025-08-25T00:28:32.216804"
+    },
+    {
+      "test": "Verify Documents Array",
+      "success": true,
+      "message": "Both TXT and CSV files found in documents array with correct metadata",
+      "details": {
+        "document_analysis": {
+          "total_documents": 2,
+          "txt_files": [
+            {
+              "filename": "architecture_doc.txt",
+              "content_type": "text/plain",
+              "has_content": true
+            }
+          ],
+          "csv_files": [
+            {
+              "filename": "support_cases.csv",
+              "content_type": "text/csv",
+              "has_content": true
+            }
+          ],
+          "other_files": []
+        },
+        "success_criteria": {
+          "has_txt_file": true,
+          "has_csv_file": true,
+          "csv_correct_content_type": true,
+          "both_files_present": true
+        }
+      },
+      "timestamp": "2025-08-25T00:28:32.230955"
+    },
+    {
+      "test": "CSV Reactive Analysis Storage",
+      "success": true,
+      "message": "CSV reactive analysis data stored in assessment",
+      "details": {
+        "has_reactive_csv": true,
+        "has_reactive_results": true,
+        "reactive_csv_length": 1291,
+        "reactive_results_keys": [
+          "analysis_summary",
+          "case_patterns",
+          "wa_violations",
+          "reactive_recommendations",
+          "risk_assessment",
+          "service_analysis",
+          "analyzed_at"
+        ]
+      },
+      "timestamp": "2025-08-25T00:28:32.246030"
+    },
+    {
+      "test": "Frontend Categorization Logic",
+      "success": true,
+      "message": "CSV files would be properly categorized by frontend",
+      "details": {
+        "categorization_results": {
+          "architecture_docs": [
+            {
+              "filename": "architecture_doc.txt",
+              "content_type": "text/plain",
+              "categorized_as": "Architecture Document"
+            }
+          ],
+          "diagrams": [],
+          "csvs": [
+            {
+              "filename": "support_cases.csv",
+              "content_type": "text/csv",
+              "categorized_as": "CSV"
+            }
+          ],
+          "other": []
+        },
+        "success_criteria": {
+          "csv_files_detected": true,
+          "txt_files_detected": true,
+          "csv_properly_categorized": true,
+          "no_miscategorization": true
+        }
+      },
+      "timestamp": "2025-08-25T00:28:32.259081"
+    }
+  ],
+  "test_run_timestamp": "2025-08-25T00:28:32.259266"
+}

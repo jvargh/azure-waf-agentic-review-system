@@ -1,0 +1,22 @@
+Simple Web Application Architecture
+===================================
+
+This is a basic web application architecture deployed on Microsoft Azure.
+
+COMPONENTS:
+- Frontend: React application hosted on Azure Static Web Apps
+- Backend: Node.js API running on Azure App Service
+- Database: Azure SQL Database for user and product data
+- Storage: Azure Blob Storage for file uploads
+- CDN: Azure CDN for static content delivery
+
+SECURITY:
+- Azure Active Directory for user authentication
+- HTTPS enforcement with SSL certificates
+- Basic firewall rules and network security groups
+
+MONITORING:
+- Azure Monitor for basic application monitoring
+- Application Insights for performance tracking
+
+This simple architecture provides a good starting point for small to medium applications with basic scalability and security requirements.

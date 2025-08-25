@@ -1,0 +1,126 @@
+{
+  "summary": {
+    "passed": 5,
+    "total": 5,
+    "success_rate": "100.0%",
+    "test_focus": "Frontend compatibility after Real LLM Mode integration fix"
+  },
+  "results": [
+    {
+      "test": "Create Frontend Compatibility Assessment",
+      "success": true,
+      "message": "Assessment created with ID: 5b5f6365-1e08-48d5-8d89-63a1b742367f",
+      "details": {
+        "id": "5b5f6365-1e08-48d5-8d89-63a1b742367f",
+        "name": "Frontend Compatibility Test",
+        "description": "Test assessment to verify frontend compatibility after Real LLM Mode integration fix. This assessment tests that pillar_scores are returned as an array of objects with proper structure including pillar_name, percentage, and sub_categories to prevent Object.entries() errors in the ResultsTab component.",
+        "documents": [],
+        "status": "pending",
+        "progress": 0,
+        "created_at": "2025-08-24T23:09:41.946239+00:00",
+        "completed_at": null,
+        "pillar_scores": [],
+        "recommendations": [],
+        "overall_score": null,
+        "overall_percentage": null,
+        "agent_metrics": null,
+        "collaboration_metrics": null
+      },
+      "timestamp": "2025-08-24T23:09:41.955804"
+    },
+    {
+      "test": "Add Architecture Description",
+      "success": true,
+      "message": "Architecture description uploaded successfully",
+      "details": {
+        "message": "Document uploaded successfully",
+        "document_id": "42883537-682c-492c-99e7-b6bb2e68ceda"
+      },
+      "timestamp": "2025-08-24T23:09:41.974274"
+    },
+    {
+      "test": "Start Analysis and Completion",
+      "success": true,
+      "message": "Analysis completed successfully in 10s",
+      "details": {
+        "final_progress": 100,
+        "completion_time": 10
+      },
+      "timestamp": "2025-08-24T23:09:52.422003"
+    },
+    {
+      "test": "Scorecard Data Structure",
+      "success": true,
+      "message": "Data structure is frontend-compatible",
+      "details": {
+        "pillar_scores_count": 5,
+        "pillar_scores_is_array": true,
+        "recommendations_count": 5,
+        "recommendations_is_array": true,
+        "sample_pillar_structure": {
+          "pillar_name": "Reliability",
+          "percentage": 63.0,
+          "sub_categories_count": 5
+        },
+        "expected_structure": {
+          "pillar_scores": [
+            {
+              "pillar_name": "string",
+              "percentage": "number",
+              "sub_categories": {
+                "category_name": {
+                  "score": "number",
+                  "percentage": "number"
+                }
+              }
+            }
+          ],
+          "recommendations": "array"
+        }
+      },
+      "timestamp": "2025-08-24T23:09:52.430356"
+    },
+    {
+      "test": "Frontend Safety Checks",
+      "success": true,
+      "message": "All frontend safety checks passed",
+      "details": {
+        "passed_checks": 4,
+        "checks": [
+          {
+            "check": "array_mapping",
+            "success": true,
+            "result": [
+              "Reliability",
+              "Security",
+              "Cost Optimization",
+              "Operational Excellence",
+              "Performance Efficiency"
+            ]
+          },
+          {
+            "check": "object_entries",
+            "success": true,
+            "entries_count": 5
+          },
+          {
+            "check": "recommendations_iteration",
+            "success": true,
+            "count": 5
+          },
+          {
+            "check": "null_safety",
+            "success": true,
+            "defaults": {
+              "pillars": 5,
+              "recs": 5,
+              "score": 65.56
+            }
+          }
+        ]
+      },
+      "timestamp": "2025-08-24T23:09:52.439348"
+    }
+  ],
+  "test_run_timestamp": "2025-08-24T23:09:52.439533"
+}

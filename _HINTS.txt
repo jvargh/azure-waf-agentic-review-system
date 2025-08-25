@@ -1,0 +1,9 @@
+cd backend
+# In your activated virtual environment
+pip install --upgrade pydantic fastapi uvicorn
+pip install openai>=1.0.0
+
+Safe Update (no local changes lost):
+git checkout main          # switch to main branch
+git fetch origin           # get the latest info from GitHub
+git pull origin main --ff-only

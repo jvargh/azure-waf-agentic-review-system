@@ -1,0 +1,261 @@
+{
+  "summary": {
+    "passed": 10,
+    "total": 12,
+    "success_rate": "83.3%"
+  },
+  "results": [
+    {
+      "test": "Enhanced Root Endpoint",
+      "success": true,
+      "message": "Enhanced Emulated Mode verified with features: Enhanced Emulation, Image Analysis, Reactive Case Analysis, GPT-5 Ready",
+      "details": {
+        "message": "Azure Well-Architected Review API - Enhanced Multi-Agent System",
+        "agent_system": "Enhanced Emulated Mode",
+        "llm_mode": "emulated",
+        "ai_framework": "Microsoft Semantic Kernel + Enhanced A2A Protocol",
+        "capabilities": {
+          "image_analysis": "Architecture diagram analysis enabled",
+          "reactive_case_analysis": "Support case pattern analysis enabled",
+          "enhanced_emulation": "Sophisticated AI response simulation",
+          "future_ready": "GPT-5 integration ready"
+        },
+        "version": "2.1.0-enhanced"
+      },
+      "timestamp": "2025-08-25T00:52:13.654844"
+    },
+    {
+      "test": "Enhanced Agent System Status",
+      "success": true,
+      "message": "Enhanced multi-agent system fully operational",
+      "details": {
+        "status": "active",
+        "total_agents": 5,
+        "collaboration_protocol": "A2A (Agent-to-Agent)",
+        "ai_framework": "Microsoft Semantic Kernel",
+        "active_agents": [
+          "Reliability",
+          "Security",
+          "Cost Optimization",
+          "Operational Excellence",
+          "Performance Efficiency"
+        ],
+        "missing_agents": [],
+        "enhanced_features": [
+          "5 Specialized Agents",
+          "Agent-to-Agent Protocol",
+          "Microsoft Semantic Kernel",
+          "Reliability Agent: 4 peers",
+          "Security Agent: 4 peers",
+          "Cost Optimization Agent: 4 peers",
+          "Operational Excellence Agent: 4 peers",
+          "Performance Efficiency Agent: 4 peers"
+        ]
+      },
+      "timestamp": "2025-08-25T00:52:13.664320"
+    },
+    {
+      "test": "Create Assessment",
+      "success": true,
+      "message": "Assessment created with ID: 8796b4b1-1be4-43f2-9357-41bd1c32ca23",
+      "details": {
+        "id": "8796b4b1-1be4-43f2-9357-41bd1c32ca23",
+        "name": "Enhanced E-commerce Architecture Review",
+        "description": "Comprehensive Azure Well-Architected Framework review of modern e-commerce platform including microservices architecture, API gateway, container orchestration, database optimization, security controls, and cloud-native patterns for enhanced scalability and reliability.",
+        "documents": [],
+        "status": "pending",
+        "progress": 0,
+        "created_at": "2025-08-25T00:52:13.671992+00:00",
+        "completed_at": null,
+        "pillar_scores": [],
+        "recommendations": [],
+        "overall_score": null,
+        "overall_percentage": null,
+        "agent_metrics": null,
+        "collaboration_metrics": null,
+        "reactive_cases_csv": null,
+        "reactive_analysis_results": null,
+        "llm_mode": "emulated"
+      },
+      "timestamp": "2025-08-25T00:52:13.680560"
+    },
+    {
+      "test": "List Assessments",
+      "success": true,
+      "message": "Retrieved 31 assessments",
+      "details": "Found test assessment: True",
+      "timestamp": "2025-08-25T00:52:13.695235"
+    },
+    {
+      "test": "Get Specific Assessment",
+      "success": true,
+      "message": "Assessment retrieved successfully",
+      "details": {
+        "id": "8796b4b1-1be4-43f2-9357-41bd1c32ca23",
+        "name": "Enhanced E-commerce Architecture Review",
+        "description": "Comprehensive Azure Well-Architected Framework review of modern e-commerce platform including microservices architecture, API gateway, container orchestration, database optimization, security controls, and cloud-native patterns for enhanced scalability and reliability.",
+        "documents": [],
+        "status": "pending",
+        "progress": 0,
+        "created_at": "2025-08-25T00:52:13.671992+00:00",
+        "completed_at": null,
+        "pillar_scores": [],
+        "recommendations": [],
+        "overall_score": null,
+        "overall_percentage": null,
+        "agent_metrics": null,
+        "collaboration_metrics": null,
+        "reactive_cases_csv": null,
+        "reactive_analysis_results": null,
+        "llm_mode": "emulated"
+      },
+      "timestamp": "2025-08-25T00:52:13.703597"
+    },
+    {
+      "test": "Document Upload",
+      "success": true,
+      "message": "Enhanced architecture document uploaded successfully",
+      "details": {
+        "message": "Document uploaded successfully",
+        "document_id": "0279afd2-d41a-4353-b919-75f7e4e2dd40"
+      },
+      "timestamp": "2025-08-25T00:52:13.714178"
+    },
+    {
+      "test": "Start Enhanced Analysis",
+      "success": true,
+      "message": "Enhanced analysis started with features: 5 Specialized Agents, A2A Collaboration, Microsoft Semantic Kernel",
+      "details": {
+        "message": "Enhanced multi-agent analysis started",
+        "status": "analyzing",
+        "agents_deployed": 5,
+        "capabilities": {
+          "image_analysis": "Architecture diagram analysis enabled",
+          "reactive_case_analysis": "Support case pattern analysis enabled",
+          "a2a_collaboration": "Agent-to-Agent protocol active"
+        },
+        "ai_framework": "Microsoft Semantic Kernel + Enhanced Multi-Agent System"
+      },
+      "timestamp": "2025-08-25T00:52:13.722095"
+    },
+    {
+      "test": "Analysis Progress",
+      "success": true,
+      "message": "Enhanced analysis completed successfully in 10s",
+      "details": "Final progress: 100%",
+      "timestamp": "2025-08-25T00:52:23.779799"
+    },
+    {
+      "test": "Enhanced Scorecard Retrieval",
+      "success": true,
+      "message": "Enhanced scorecard with sophisticated analysis verified",
+      "details": {
+        "overall_score": 66.76,
+        "pillar_count": 5,
+        "total_subcategories": 25,
+        "avg_subcategories_per_pillar": 5.0,
+        "recommendation_count": 5,
+        "azure_services_included": 5,
+        "reference_urls_included": 1,
+        "cost_estimates": 0,
+        "business_impact_analysis": 0,
+        "enhanced_features": [
+          "Reliability: 5 sub-categories",
+          "Security: 5 sub-categories",
+          "Cost Optimization: 5 sub-categories",
+          "Operational Excellence: 5 sub-categories",
+          "Performance Efficiency: 5 sub-categories"
+        ],
+        "agent_metrics_present": false,
+        "collaboration_metrics_present": false
+      },
+      "timestamp": "2025-08-25T00:52:23.788562"
+    },
+    {
+      "test": "Enhanced Analysis Quality",
+      "success": false,
+      "message": "Analysis quality below enhanced system expectations",
+      "details": {
+        "pillar_count": 5,
+        "recommendation_count": 5,
+        "score_variance": 5,
+        "enhanced_recommendations": 0,
+        "quality_metrics": {
+          "sophisticated_scoring": true,
+          "context_aware_analysis": true,
+          "enhanced_recommendations": false,
+          "collaboration_insights": false
+        },
+        "quality_score": "2/4"
+      },
+      "timestamp": "2025-08-25T00:52:23.798707"
+    },
+    {
+      "test": "Artifact Findings Fix",
+      "success": true,
+      "message": "\ud83c\udf89 All 3 critical issues FIXED! 6 fixes verified, 0 issues found",
+      "details": {
+        "assessment_id": "eb6ee316-3e0c-40d8-8409-a086495514fc",
+        "llm_mode_set": "emulated",
+        "documents_uploaded": 2,
+        "text_documents": 1,
+        "csv_documents": 1,
+        "image_documents": 0,
+        "categorization_analysis": {
+          "text_documents": [
+            {
+              "filename": "architecture_doc.txt",
+              "content_type": "text/plain",
+              "expected_category": "Architecture Documents"
+            }
+          ],
+          "csv_documents": [
+            {
+              "filename": "support_cases.csv",
+              "content_type": "text/csv",
+              "expected_category": "Case Analysis Data"
+            }
+          ],
+          "image_documents": [],
+          "total_documents": 2,
+          "double_categorization_issues": []
+        },
+        "csv_reactive_analysis": {
+          "csv_content_stored": true,
+          "analysis_results_present": true
+        },
+        "issues_found": [],
+        "fixes_verified": [
+          "\u2705 LLM mode properly set in assessment data",
+          "\u2705 CSV files properly categorized for Case Analysis Data context",
+          "\u2705 Text files properly categorized for Architecture Documents only",
+          "\u2705 No double categorization - CSV and text files in separate categories",
+          "\u2705 Both documents properly stored in assessment",
+          "\u2705 CSV files trigger reactive analysis as expected"
+        ],
+        "total_issues": 0,
+        "total_fixes": 6
+      },
+      "timestamp": "2025-08-25T00:52:23.843263"
+    },
+    {
+      "test": "Details Extraction Fix",
+      "success": false,
+      "message": "\u274c Details extraction fix has issues: Only 0% unique details; No LLM markers found; Only 0% high-quality details",
+      "details": {
+        "total_recommendations": 5,
+        "unique_details_count": 0,
+        "unique_details_ratio": "0.0%",
+        "generic_fallback_count": 0,
+        "has_no_generic_fallback": true,
+        "llm_markers_found": [],
+        "has_llm_markers": false,
+        "pillar_diversity": 5,
+        "high_quality_details": 0,
+        "quality_ratio": "0.0%"
+      },
+      "timestamp": "2025-08-25T00:52:33.925948"
+    }
+  ],
+  "test_run_timestamp": "2025-08-25T00:52:33.926134"
+}

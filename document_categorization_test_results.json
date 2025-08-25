@@ -1,0 +1,186 @@
+{
+  "summary": {
+    "passed": 5,
+    "total": 5,
+    "success_rate": "100.0%"
+  },
+  "results": [
+    {
+      "test": "Create Test Assessment",
+      "success": true,
+      "message": "Assessment created with ID: a9957fc0-0177-4655-8cd4-758a62288a86",
+      "details": {
+        "id": "a9957fc0-0177-4655-8cd4-758a62288a86",
+        "name": "Document Categorization Test Assessment",
+        "description": "Test assessment to verify document upload and categorization functionality for different file types including TXT, CSV, and images.",
+        "documents": [],
+        "status": "pending",
+        "progress": 0,
+        "created_at": "2025-08-25T00:09:12.893354+00:00",
+        "completed_at": null,
+        "pillar_scores": [],
+        "recommendations": [],
+        "overall_score": null,
+        "overall_percentage": null,
+        "agent_metrics": null,
+        "collaboration_metrics": null
+      },
+      "timestamp": "2025-08-25T00:09:12.902726"
+    },
+    {
+      "test": "Upload Different File Types",
+      "success": true,
+      "message": "All 3 file types uploaded successfully",
+      "details": {
+        "txt": {
+          "success": true,
+          "document_id": "0dcea6c5-70cf-41e7-add2-71bcc59163e8",
+          "expected_content_type": "text/plain",
+          "filename": "architecture_review.txt"
+        },
+        "csv": {
+          "success": true,
+          "document_id": "aeebaa54-ba46-4668-9716-b9cee44c32a4",
+          "expected_content_type": "text/csv",
+          "filename": "support_cases.csv"
+        },
+        "png": {
+          "success": true,
+          "document_id": "637ce8eb-a13f-4394-ac4b-e5cc07858c9e",
+          "expected_content_type": "image/png",
+          "filename": "architecture_diagram.png"
+        }
+      },
+      "timestamp": "2025-08-25T00:09:12.947438"
+    },
+    {
+      "test": "Document Storage and Metadata",
+      "success": true,
+      "message": "All documents stored with correct metadata and content types",
+      "details": {
+        "total_documents": 3,
+        "expected_documents": 3,
+        "content_type_analysis": {
+          "txt": {
+            "filename": "architecture_review.txt",
+            "expected_content_type": "text/plain",
+            "actual_content_type": "text/plain",
+            "content_type_correct": true,
+            "has_base64_data": true,
+            "has_upload_time": true,
+            "has_document_id": true
+          },
+          "csv": {
+            "filename": "support_cases.csv",
+            "expected_content_type": "text/csv",
+            "actual_content_type": "text/csv",
+            "content_type_correct": true,
+            "has_base64_data": true,
+            "has_upload_time": true,
+            "has_document_id": true
+          },
+          "png": {
+            "filename": "architecture_diagram.png",
+            "expected_content_type": "image/png",
+            "actual_content_type": "image/png",
+            "content_type_correct": true,
+            "has_base64_data": true,
+            "has_upload_time": true,
+            "has_document_id": true
+          }
+        },
+        "filename_analysis": {},
+        "missing_documents": [],
+        "incorrect_content_types": []
+      },
+      "timestamp": "2025-08-25T00:09:12.958690"
+    },
+    {
+      "test": "API Response Structure",
+      "success": true,
+      "message": "API response structure is correct and supports categorization",
+      "details": {
+        "has_documents_array": true,
+        "documents_count": 3,
+        "document_fields": {
+          "id": {
+            "present": true,
+            "value_type": "str",
+            "has_value": true
+          },
+          "filename": {
+            "present": true,
+            "value_type": "str",
+            "has_value": true
+          },
+          "content_type": {
+            "present": true,
+            "value_type": "str",
+            "has_value": true
+          },
+          "file_base64": {
+            "present": true,
+            "value_type": "str",
+            "has_value": true
+          },
+          "uploaded_at": {
+            "present": true,
+            "value_type": "str",
+            "has_value": true
+          }
+        },
+        "required_fields_present": true,
+        "categorization_data_available": {
+          "can_identify_text_files": true,
+          "can_identify_csv_files": true,
+          "can_identify_image_files": true,
+          "content_types_diverse": true
+        },
+        "content_types_found": [
+          "text/plain",
+          "text/csv",
+          "image/png"
+        ],
+        "file_extensions": [
+          "png",
+          "txt",
+          "csv"
+        ]
+      },
+      "timestamp": "2025-08-25T00:09:12.968296"
+    },
+    {
+      "test": "Content Type Detection Accuracy",
+      "success": true,
+      "message": "Content type detection is 100.0% accurate",
+      "details": {
+        "total_files_tested": 3,
+        "correct_detections": 3,
+        "incorrect_detections": [],
+        "detection_accuracy": 100.0,
+        "file_type_results": {
+          "txt": {
+            "filename": "architecture_review.txt",
+            "expected_content_type": "text/plain",
+            "actual_content_type": "text/plain",
+            "detection_correct": true
+          },
+          "csv": {
+            "filename": "support_cases.csv",
+            "expected_content_type": "text/csv",
+            "actual_content_type": "text/csv",
+            "detection_correct": true
+          },
+          "png": {
+            "filename": "architecture_diagram.png",
+            "expected_content_type": "image/png",
+            "actual_content_type": "image/png",
+            "detection_correct": true
+          }
+        }
+      },
+      "timestamp": "2025-08-25T00:09:12.968394"
+    }
+  ],
+  "test_run_timestamp": "2025-08-25T00:09:12.968560"
+}
