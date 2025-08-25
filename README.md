@@ -1,6 +1,23 @@
 # Azure Well-Architected Review System - Enhanced Edition 
 
 A comprehensive multi-agent AI system for conducting Azure Well-Architected Framework reviews with **dual intelligence modes**: sophisticated emulated analysis and real OpenAI GPT-4 Turbo integration. This production-ready system provides professional-grade architecture analysis across all five pillars using specialized AI agents that collaborate to deliver actionable recommendations.
+<img width="809" height="602" alt="image" src="https://github.com/user-attachments/assets/a591ab16-413d-4c73-908a-cb668aa29015" />
+
+
+## ✨ **UI Screenshots**
+1. Ingest documents, IMGs, Case CSV files: <img width="971" height="296" alt="image" src="https://github.com/user-attachments/assets/cba60d46-d9c1-4fac-9eba-3a4d0d7b69c6" />
+
+2. Findings from the LLM (non-emulated mode): <img width="982" height="993" alt="image" src="https://github.com/user-attachments/assets/be6b3d0c-5bca-44f3-af57-4985cf0958c5" />
+
+3. Start Analysis on document upload completion: <img width="1005" height="471" alt="image" src="https://github.com/user-attachments/assets/d3df4abe-9b90-436d-bade-932a51e571d7" />
+
+4. Analysis invokes the Agents for each pillar and gets LLM recommendations: <img width="988" height="669" alt="image" src="https://github.com/user-attachments/assets/60f30921-18b7-4d63-a2e8-9a94e274cdc4" />
+
+5. Scorecard based on evaluation: <img width="998" height="649" alt="image" src="https://github.com/user-attachments/assets/eb91a85a-424c-430d-b33e-e9d042891415" />
+
+6. Recommendation in LLM=AI mode: <img width="984" height="485" alt="image" src="https://github.com/user-attachments/assets/1915ced5-b238-4083-b45a-2caf3035e8c4" />
+
+7. Recommendation in LLM=Emulation mode: <img width="903" height="327" alt="image" src="https://github.com/user-attachments/assets/66d7c398-ec87-4888-867f-c675dfe2c35b" />
 
 ## 🎯 **Dual Intelligence Modes**
 
@@ -36,8 +53,6 @@ A comprehensive multi-agent AI system for conducting Azure Well-Architected Fram
 - **One-Line Configuration**: Switch between emulated and real LLM instantly
 - **Graceful Fallback**: Real LLM mode falls back to enhanced emulated if API fails
 - **Cost Control**: Choose analysis mode based on budget and requirements
-
-## 🏗️ **Multi-Agent AI Architecture Analysis Platform**
 
 ## 🏗️ **System Architecture**
 
@@ -818,7 +833,6 @@ For support and questions:
 *Transform your Azure architecture reviews from manual checklists to intelligent, automated analysis with actionable recommendations.*
 
 **Start your intelligent architecture review today!** 🚀
-
 ---
 
 *Enhanced Azure Well-Architected Review System v2.1.0 | Last Updated: August 2025*
