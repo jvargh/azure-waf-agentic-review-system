@@ -2,7 +2,9 @@
 
 A comprehensive multi-agent AI system for conducting Azure Well-Architected Framework reviews with **dual intelligence modes**: sophisticated emulated analysis and real OpenAI GPT-4 Turbo integration. This production-ready system provides professional-grade architecture analysis across all five pillars using specialized AI agents that collaborate to deliver actionable recommendations.
 
-[🎥 Watch Demo](https://youtu.be/Mc2Q8MxwVws)
+[🎥 Watch Demo](https://youtu.be/Mc2Q8MxwVws)  
+[📄 Open the PDF](https://github.com/jvargh/azure-waf-agentic-review-system/blob/main/media/Blog-Building%20an%20Advanced%20Azure%20Well-Architected%20Review%20System%20From%20Concept%20to%20Production-Ready%20AI%20Platform.pdf)
+
 
 <img width="809" height="602" alt="image" src="https://github.com/user-attachments/assets/a591ab16-413d-4c73-908a-cb668aa29015" />
 
